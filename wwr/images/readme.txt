@@ -1,0 +1,1 @@
+image folder to store images
