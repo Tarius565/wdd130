@@ -129,7 +129,7 @@ nav a:hover {
   grid-template-areas: ". . home home . ."
     ". . . top . ."
     ". left left right right ."
-    "rivers rivers . . page3 page3";
+    "page2 page2 . . page3 page3";
 }
 .sitemap > div {
   text-align: center;
@@ -139,8 +139,8 @@ nav a:hover {
   background-color: #ccc;
   line-height: 3em;
 }
-.sm-rivers {
-  grid-area: rivers;
+.sm-page2 {
+  grid-area: page2;
   background-color: #ccc;
   line-height: 3em;
 }
