@@ -59,7 +59,7 @@ h4 {
     max-width: 1600px;
     margin: 0 auto;
 }
-.home-title {
+.home-title, .rivers-title {
     color: black;
     font-family: "Rock Salt", Papyrus;
     font-size: 2em;
@@ -85,7 +85,7 @@ nav a:hover {
     grid-row: 1/3;
     z-index: -1;
 }
-#hero-msg h1, #hero-msg h4 {
+#hero-msg h1, #hero-msg h4, #rivers-hero-msg h1 {
     text-align: center;
     color: white;
 }
@@ -97,18 +97,35 @@ nav a:hover {
 #hero-img {
     width: 100%;
 }
+#rivers-hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -25px;
+}
+#rivers-hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#rivers-hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 40px;
+}
+#rivers-hero-img {
+    width: 100%;
+    margin-bottom: 75px;
+}
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
+.rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
 .button-box {
     text-align: center;
-}
-main section {
-    text-align: center;
-}
-main section img {
-    box-sizing: border-box;
 }
 #background {
     height: 725px;
@@ -152,6 +169,40 @@ main section img {
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
+}
+.salmon-river-img, .desolation-river-img, .grand-canyon-img {
+    border: 10px solid #32425A;
+    box-shadow: 5px 5px 10px #6f7364;
+    height: 500px;
+    width: 700px;
+}
+.salmon-river-msg {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.salmon-river-img {
+    grid-column: 5/7;
+    grid-row: 1/2;
+}
+.desolation-river-msg {
+    grid-column: 4/7;
+    grid-row: 2/3;
+}
+.desolation-river-img {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.grand-canyon-msg {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    margin-top: 25px;
+}
+.grand-canyon-img {
+    grid-column: 5/7;
+    grid-row: 3/4;
+}
+.salmon-river-msg {
+    margin-right: 50px;
 }
 .msg {
     background-color: #32425A;
