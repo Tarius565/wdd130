@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Rancho&family=Roboto&family=Ubuntu&display=swap');
+
+/* --primary-color: #2A2E2A;
+--secondary-color: #4D0D0A;
+--accent1-color: #AA8A28;
+--accent2-color: #D2E4C4; */
+
+header {
+    background-color: #4D0D0A;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    color: #AA8A28;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+ background-color: #2A2E2A;
+ color: white;
+}
+.logo {
+    width: 100px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+body {
+    background-color: #fcfbfb;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+footer {
+    background-color: #4D0D0A;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer h3 {
+    color: #AA8A28;
+}
+footer a {
+    color: #AA8A28;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #D2E4C4;
+}
+footer p {
+    font-size: 1.2em;
+    color: white;
+}
+footer p:hover {
+    text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.msg-banner {
+    grid-column: 1/6;
+    text-align: center;
+    font-size: 2em;
+    font-family: Rancho, Roboto;
+}
+#banner {
+    grid-column: 1/6;
+    background-color: #2A2E2A;
+    border: 10px solid #AA8A28;
+    box-shadow: 5px 5px 10px #4D0D0A;
+}
+#banner-img {
+    height: 500px;
+}
+#banner-img2 {
+    height: 500px;
+}
+.information-msg {
+    grid-column: 1/4;
+    font-family: Mukta, Ubuntu;
+    font-size: 1.6em;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#youtube-msg {
+    grid-column: 4/6;
+    font-family: Mukta, Ubuntu;
+    padding: 50px;
+    margin-top: 50px;
+    font-size: 1.1em;
+}
