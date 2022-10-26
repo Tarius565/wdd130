@@ -183,6 +183,7 @@ footer .social img {
     height: 400px;
 }
 #feedback {
+    grid-column: 1/2;
     align-content: center;
 }
 form {
