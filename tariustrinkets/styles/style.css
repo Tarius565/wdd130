@@ -166,6 +166,10 @@ footer .social img {
 #about-title {
     text-align: center;
 }
+#about-title h1 {
+    font-size: 2em;
+    font-family: Rancho, Roboto;
+}
 #aboutme {
     grid-column: 1/3;
 }
